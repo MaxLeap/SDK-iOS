@@ -1,3 +1,8 @@
+2.0.3 发布日期：2015-11-23
+
+修复删除服务器上的 config 后，本地缓存不删除对应的 config 的 bug
+添加 nullability annotations
+
 2.0.2 发布日期：2015-11-03
 
 识别新设备(iPhone6s, iPhone6s Plus, iPod touch 6G, iPad Pro)
