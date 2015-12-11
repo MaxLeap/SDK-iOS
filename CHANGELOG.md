@@ -1,3 +1,11 @@
+2.0.4 发布日期：2015-11-23
+
+MLObject 支持 KVC `setValue:forKey`，但是暂不支持 KVO
+修正一些注释
+修复行数据中存储的文件链接为空时，SDK 会崩溃的问题
+修复 MLObject 子类跟 子类的子类可以拥有不同的 leapClassName 的问题
+其他 bug 修复
+
 2.0.3 发布日期：2015-11-23
 
 修复删除服务器上的 config 后，本地缓存不删除对应的 config 的 bug
