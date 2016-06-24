@@ -1,3 +1,17 @@
+2.0.10 发布日期：2016-6-24
+
+**重大变更：**
+
+- `MLHelpCenter` 开源，并且拆分为 [MaxFAQ](https://github.com/MaxLeap/Module-MaxFAQ-iOS) 和 [MaxIssues](https://github.com/MaxLeap/Module-MaxIssues-iOS), `MLHelpCenter.embeddedframework` 以后不再与 `MaxLeap.framework` 一起发布
+- `MaxIMLib.framework` 改为静态库，原动态库更名为 `MaxIMLibDynamic.framework`
+- `MaxSocial` 原来的评论创建方法变更为：`- (void)createOrUpdateComment:(NSDictionary *)params block:(MLSCommentResultBlock)block;`， 老方法可能失效
+
+其他更新：
+
+- 修复了对 MLObject 子类的子类必须显式声明遵循协议 `MLSubclassing` 的 BUG
+- 修复了在32位机器上，BOOL 类型的属性值会被序列化成数字的 BUG
+
+
 2.0.10 发布日期：2016-5-16
 
 新增 `MaxSocial` 和 `MaxSocialShare` 两个模块 </br>
