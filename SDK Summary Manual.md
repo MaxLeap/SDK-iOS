@@ -12,23 +12,23 @@ MaxLeap SDK 有三个压缩包：maxleap-sdk-ios.zip, maxleap-im-ios.zip, maxlea
 
 MaxLeap.framework 核心库，下面的代码库都依赖它，[详细功能使用指南](#MaxLeap_detail)
 
-<span id="MaxLeapPay_detail"></span>
+<a id="MaxLeapPay_detail"></a>
 MaxLeapPay.framework 支付模块，支持支付宝支付、微信支付、银联支付。[集成使用指南][MaxLeapPay_detail]
 
-<span id="MaxSocial_detail"></span>
+<a id="MaxSocial_detail"></a>
 MaxSocial.framework 社交模块，支持发帖、评论／点赞、关注、朋友圈、广场等功能，[集成使用指南][MaxSocial_detail]
 
-<span id="MLQQUtils_detail"></span>
+<a id="MLQQUtils_detail"></a>
 MLQQUtils.framework QQ 登录模块，[集成使用指南][MLQQUtils_detail]
 
-<span id="MLWeChatUtils_detail"></span>
+<a id="MLWeChatUtils_detail"></a>
 MLWeChatUtils.framework 微信登录模块，[集成使用指南][MLWeChatUtils_detail]
 
-<span id="MLWeiboUtils_detail"></span>
+<a id="MLWeiboUtils_detail"></a>
 MLWeiboUtils.framework 微博登录模块，[集成使用指南][MLWeiboUtils_detail]
 
 
-<span id="MaxLeap_detail"></span>
+<a id="MaxLeap_detail"></a>
 ### MaxLeap.framework
 
 集成指南：https://maxleap.cn/s/web/zh_cn/quickstart/ios/core/existing.html
@@ -44,7 +44,7 @@ MaxLeap.framework 内置功能以及使用指南：
 - 推送营销, [使用指南][marketing]
 
 
-<span id="maxleap-im-ios"></span>
+<a id="maxleap-im-ios"></a>
 ## 1.2 maxleap-im-ios.zip
 
 包含以下代码库：
