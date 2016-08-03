@@ -18,15 +18,17 @@ MaxLeapPay.framework 支付模块，支持支付宝支付、微信支付、银�
 <a id="MaxSocial_detail"></a>
 MaxSocial.framework 社交模块，支持发帖、评论／点赞、关注、朋友圈、广场等功能，[集成使用指南][MaxSocial_detail]
 
-<a id="MLQQUtils_detail"></a>
 MLQQUtils.framework QQ 登录模块，[集成使用指南][MLQQUtils_detail]
 
-<a id="MLWeChatUtils_detail"></a>
 MLWeChatUtils.framework 微信登录模块，[集成使用指南][MLWeChatUtils_detail]
 
-<a id="MLWeiboUtils_detail"></a>
 MLWeiboUtils.framework 微博登录模块，[集成使用指南][MLWeiboUtils_detail]
 
+MaxSocialShare.embeddedframework 社交分享组件，此组件可以单独使用，只依赖于第三方平台 SDK。[源码地址][maxshare_source]，使用指南请查阅源码仓库中的 README
+
+MaxIssues.embeddedframework 用户反馈组件，[源码地址][maxissues_source]，使用指南请查阅源码仓库中的 README
+
+MaxFAQ.embeddedframework FAQ 界面组件, [源码地址][maxfaq_source], 使用指南请查阅源码仓库中的 README
 
 <a id="MaxLeap_detail"></a>
 ### MaxLeap.framework
@@ -141,3 +143,7 @@ MaxIMLib.framework **静态库，MaxIMLibDynamic.framework 的静态版本**
 [MLQQUtils_detail]: https://maxleap.cn/s/web/zh_cn/guide/devguide/ios.html#账号服务-第三方登录-使用-qq-账号登陆
 [MLWeChatUtils_detail]: https://maxleap.cn/s/web/zh_cn/guide/devguide/ios.html#账号服务-第三方登录-使用微信账号登陆
 [MLWeiboUtils_detail]: https://maxleap.cn/s/web/zh_cn/guide/devguide/ios.html#账号服务-第三方登录-使用微博账号登陆
+
+[maxshare_source]: https://github.com/MaxLeap/Module-MaxShare-iOS
+[maxissues_source]: https://github.com/MaxLeap/Module-MaxIssues-iOS
+[maxfaq_source]: https://github.com/MaxLeap/Module-MaxFAQ-iOS
