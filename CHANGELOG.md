@@ -1,4 +1,24 @@
-2.0.10 发布日期：2016-6-24
+2.1.1 发布日期：2016-8-19
+
+MaxLeap
+
+- 优化在SDK初始化之前调用 `[MLUser user]` 或者 `[MLInstallation currentInstallation]` 抛出的异常信息
+- 修复网络请求内存泄漏的问题
+
+MaxSocial
+
+- 增加批量创建／更新评论的接口
+- 更新获取未读评论的接口
+- 修复说说图片顺序与上传顺序不一致的问题
+
+MaxIMLib
+
+- SocketIOClientSwift 升级至 v6.1.6
+- MLIMClientConfiguration 新增 baseURL 属性，用来更改服务器地址
+- MLIMFriendInfo 升级为可扩展的类
+- 其它错误修正
+
+2.1.0 发布日期：2016-6-24
 
 **重大变更：**
 

@@ -33,7 +33,7 @@ MaxFAQ.embeddedframework FAQ 界面组件, [源码地址][maxfaq_source], 使用
 <a id="MaxLeap_detail"></a>
 ### MaxLeap.framework
 
-集成指南：https://maxleap.cn/s/web/zh_cn/quickstart/ios/core/existing.html
+快速入门：https://maxleap.cn/s/web/zh_cn/quickstart/iosquickstart.html
 
 MaxLeap.framework 内置功能以及使用指南：
 
