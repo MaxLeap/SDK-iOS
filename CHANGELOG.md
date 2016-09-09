@@ -1,3 +1,24 @@
+2.1.2 发布日期：2016-9-9
+
+	
+MaxLeap
+
+- Installation 增加 sandbox 字段，用来标记是否是推送测试环境
+- MLUser 增加 mobilePhone 和 mobilePhoneVerified 属性
+- MLObject 禁止对声明为 readonly 和 dynamic 的属性执行 -setObject:forKey: 方法
+- 修复了多次调用同一个 MLObject 的保存方法偶有数据丢失的问题
+- 修复 In-App Message 下载出错的问题
+- 修复 In-App Message 会重复展示多次的问题
+
+MaxIM
+
+- MLIMMessage 增加了与推送定制相关的属性 pushxxx
+- MLIMMessage 增加了 remark 字段，可以存放自定义消息结构
+- MLIMClientConfiguration 增加 voip 开关
+- 新增陌生人聊天方式
+- 修复使用除UserId登录以外的登录方式登录收不到离线推送消息的问题
+- 修复偶尔会 crash 的问题
+
 2.1.1 发布日期：2016-8-19
 
 MaxLeap
