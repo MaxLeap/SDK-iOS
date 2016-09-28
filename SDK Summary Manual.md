@@ -63,7 +63,7 @@ SocketIOClientSwift.framework 动态库，使用 socket.io-client-swift v6.1.6 �
 
 > **_你还可以使用 [socket.io-client-swift 源码](https://github.com/socketio/socket.io-client-swift)自行打包 SocketIO.framework。有关 socket.io-client-swift 的兼容性信息，请查阅 [socket.io 官方说明](https://github.com/socketio/socket.io-client-swift/blob/master/README.md#installation)_**
 
-**_MaxIMLib 依赖于 SocketIO.framework 动态库，直接在项目中使用 socket.io-client-swift 源码可能会出错_**
+> **_MaxIMLib 依赖于 SocketIO.framework 动态库，直接在项目中使用 socket.io-client-swift 源码可能会出错_**
 
 集成使用指南：https://maxleap.cn/s/web/zh_cn/guide/devguide/ios.html#%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF
 
