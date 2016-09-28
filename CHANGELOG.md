@@ -17,7 +17,6 @@ MaxSocial
 
 2.1.2 发布日期：2016-09-09
 
-	
 MaxLeap
 
 - Installation 增加 sandbox 字段，用来标记是否是推送测试环境
