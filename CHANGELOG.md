@@ -1,4 +1,21 @@
-2.1.2 发布日期：2016-9-9
+2.1.3 发布日期：2016-09-28
+
+MaxLeap
+
+- 删除 SSKeychain
+- 修复一些问题
+
+MaxIM
+
+- 兼容 socket.io-client-swift v8.x (使用 swift3)
+- 添加新的错误码 kMLIMErrorInvalidQuery
+- 修复 message.attachmentUrl 总返回空的问题
+
+MaxSocial
+
+－ MaxSocialShuoShuo 添加一个新的字段 `share`，可用来保存自定义数据
+
+2.1.2 发布日期：2016-09-09
 
 	
 MaxLeap
