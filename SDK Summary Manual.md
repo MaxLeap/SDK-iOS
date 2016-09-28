@@ -51,13 +51,19 @@ MaxLeap.framework 内置功能以及使用指南：
 
 包含以下代码库：
 
-SocketIOClientSwift.framework **动态库，**即时通讯基础功能代码库
+SocketIO.framework **动态库，使用 socket.io-client-swift v8.x(使用 swift3) 或者更新版本源码打包**，即时通讯基础功能代码库
 
 MaxIMLibDynamic.framework **动态库，**MaxLeap 提供的即时通讯功能代码库
 
 MaxIMLib.framework **静态库，MaxIMLibDynamic.framework 的静态版本**
 
-> **_MaxIMLibDynamic.framework 与 MaxIMLib.framework 二选一，不可以同时集成_**
+SocketIOClientSwift.framework 动态库，使用 socket.io-client-swift v6.1.6 或者更早版本源码打包，7.x 以及更新版本改名为 SocketIO.framework
+
+> **_MaxIMLibDynamic.framework 与 MaxIMLib.framework 二选一，不可以同时集成；从 im 1.3.0 版本开始，兼容 SocketIO.framework 和 SocketIOClientSwift.framework；与 SocketIO.framework 不同，MaxIMLib 采用 Objective-C 编写，不存在类似 swift 的兼容性问题_**
+
+> **_你还可以使用 [socket.io-client-swift 源码](https://github.com/socketio/socket.io-client-swift)自行打包 SocketIO.framework。有关 socket.io-client-swift 的兼容性信息，请查阅 [socket.io 官方说明](https://github.com/socketio/socket.io-client-swift/blob/master/README.md#installation)_**
+
+**_MaxIMLib 依赖于 SocketIO.framework 动态库，直接在项目中使用 socket.io-client-swift 源码可能会出错_**
 
 集成使用指南：https://maxleap.cn/s/web/zh_cn/guide/devguide/ios.html#%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF
 
