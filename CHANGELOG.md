@@ -48,11 +48,18 @@ MaxLeap
 - 删除 SSKeychain
 - 修复一些问题
 
-MaxIM
+MaxIM v1.3.0
 
 - 兼容 socket.io-client-swift v8.x (使用 swift3)
 - 添加新的错误码 kMLIMErrorInvalidQuery
 - 修复 message.attachmentUrl 总返回空的问题
+
+MaxIM v1.3.1 - 2016.10.28
+
+- 修复向聊天室发送系统消息时 crash 的问题
+- 修复删除聊天室成员报非法参数错误的问题
+- 使用 Xcode 8.0 编译
+- SocketIO.framework 使用 socket.io-client-swift v8.0.2 源码和 Xcode 8.0 编译，**不兼容 Xcode 7.x 以及 Xcode 8.1**
 
 MaxSocial
 
