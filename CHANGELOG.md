@@ -1,5 +1,21 @@
 
 
+2.2.2 发布日期：2016.11.28
+
+MaxLeap
+
+- 支持新设备的识别（主要在 Installation 中用到）
+- 修复 In-App 消息界面在 iOS 10 上的旋转问题
+- 修复使用 KVO 观察 NSURLSessionTask.state 可能引起的奇怪的崩溃的问题
+
+MaxIMLib - v1.4.1
+
+- 修复多次调用 `resume` 接口后会收到重复消息的问题
+- 修正登陆接口返回的 `error` 对象
+- 修正 `-[MLIMUser fetchWithCompletion:]` 接口的行为
+
+---
+
 2.2.0 发布日期: 2016.11.04
 
 MaxLeap
